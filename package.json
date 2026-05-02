@@ -1,0 +1,22 @@
+{
+  "name": "react-elaina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Elaina page",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "vite": "^6.4.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
